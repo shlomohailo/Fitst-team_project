@@ -1,68 +1,47 @@
-.bigimagcontainer{
-    background-image: url('/images/savmyhome.jpg');
-    background-size: cover;
-    background-position: 0% 35%;
-    height: 55vh;
-    position:relative;
-    z-index:1;
-    
-
+.bigimagcontainer {
+  background-image: url("/images/savmyhome.jpg");
+  background-size: cover;
+  background-position: 0% 35%;
+  height: 55vh;
 }
-.main-container{
+
+
+.navul {
     position: relative;
-    z-index: 5;
-    ;
-}
-
-@media screen and (max-width:575px) {
-   .main-container{
-       height: 5vh;
-       align-items: center;
-       justify-content: center;
-       overflow: hidden;
-       position: relative;
-       z-index:2;
-
-       
-
-   }
-   .navul{
-    font-size: 1.5vh;
-    z-index: 6;
-}
-   .borger{
-       background-color:white;
-       width: 10vw;
-       height: 0.5vh;
-       margin-bottom: 0.5vh;
-       
-   }
- 
-   
-   
-
-   .main-container:hover{
-       transition-duration:1s ;
-
-    height:auto;
-}
-.bigimagcontainer{
-height:25vh;
-    
-
-}
-.navul{
-    font-size: 1.5vh;
-    z-index: 6;
-}
-}
-/* sm screen  */
-@media screen and (max-width:575px) {
-    .listcontainer {
-      display: flex;
-      flex-direction: column;
-    
-    }
-  
   }
 
+@media screen and (max-width: 575px) {
+  .main-container {
+    height: 5vh;
+    align-items: center;
+    justify-content: center;
+    overflow:hidden;
+    position:relative;
+    z-index: 2;
+  }
+  .borger {
+    background-color: white;
+    width: 10vw;
+    height: 0.5vh;
+    margin-bottom: 0.5vh;
+  }
+  .main-container:hover {
+    transition-duration: 1s;
+ height: auto;
+  }
+  .bigimagcontainer {
+    height: 25vh;
+    position: relative;
+    z-index: 1;
+  }
+  .navul {
+    font-size: 1.5vh;
+    z-index: 6;
+  }
+}
+@media screen and (max-width: 575px) {
+  .listcontainer {
+    display: flex;
+    flex-direction: column;
+  }
+}
