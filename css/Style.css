@@ -61,7 +61,8 @@ body {
   }
   .main-container:hover {
     transition-duration: 1s;
-    height: 26vh;
+    height: auto;
+
   }
   .bigimagcontainer {
     background-position: 0% 30%;
