@@ -31,7 +31,6 @@
   }
   .bigimagcontainer {
     height: 25vh;
-    position: relative;
     z-index: 1;
   }
   .navul {
