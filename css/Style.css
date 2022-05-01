@@ -59,10 +59,13 @@ body {
     height: 0.5vh;
     margin-bottom: 0.5vh;
   }
-  .main-container:hover {
+  .main-container:active {
+    height: max-content;
     transition-duration: 1s;
-    height: auto;
-
+  }
+  .main-container:hover {
+    height: max-content;
+    transition-duration: 1s;
   }
   .bigimagcontainer {
     background-position: 0% 30%;
