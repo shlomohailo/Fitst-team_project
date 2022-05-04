@@ -21,24 +21,24 @@ body {
 .cardimg {
   height: 40vh;
   width: 100%;
-  background-image: url("/images/p1.jpg");
+  background-image: url("../images/p1.jpg");
   background-size: cover;
   animation: cardim infinite alternate-reverse 10s;
 }
 @keyframes cardim {
   20% {
-    background-image: url("/images/p2.jpg");
+    background-image: url("../images/p2.jpg");
     background-size: cover;
   }
   40% {
-    background-image: url("/images/p3.jpg");
+    background-image: url("../images/p3.jpg");
     background-size: cover;
   }
   70% {
-    background-image: url("/images/p4.jpg");
+    background-image: url("../images/p4.jpg");
   }
   100% {
-    background-image: url("/images/p5.jpg");
+    background-image: url("../images/p5.jpg");
   }
 }
 .youtube {
